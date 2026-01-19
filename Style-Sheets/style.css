@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+:root{
+        --brand-color: #00FF88;
+        --pr-color:#1A0B2E;
+        --sce-color:#FFFFFF;
+        --g1:linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+        --g2:linear-gradient(270deg, #007b70 0%, #ECF955 100%);
+}
