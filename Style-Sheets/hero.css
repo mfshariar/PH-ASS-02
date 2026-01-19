@@ -66,3 +66,9 @@
     background: transparent;
     cursor: pointer;
 }
+@media screen and (max-width: 576px){
+    .hero-subtitle{
+        width: 75%;
+        margin: 0 auto;
+    }
+}

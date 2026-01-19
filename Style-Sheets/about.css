@@ -1,0 +1,49 @@
+#about{
+    background-color: var(--pr-color);
+}
+
+.about-contant {
+    max-width: 75rem;
+    margin: 0 auto;
+    color: var(--sc-color);
+    text-align: center;
+}
+.about-contant h1{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 3.12rem 0 1rem 0;
+}
+.about-contant p{
+    max-width: 49rem;
+    margin: 0 auto;
+    text-align: center;
+}
+hr{
+    border: 1px solid white;
+    margin: 5rem 0;
+}
+.feature{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 7.5rem;
+    text-align: center;
+}
+.big-num{
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--brand-color);
+}
+.feature p{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 576px){
+    .about-contant{
+        padding: 0 1.5rem;
+    }
+    .feature{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem 0;
+    }
+}
