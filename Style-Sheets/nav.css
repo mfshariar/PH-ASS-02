@@ -32,6 +32,7 @@ nav{
     padding: 10px 16px;
     color: var(--sc-color);
     background: var(--grad-one);
+    cursor: pointer;
 }
 .su-bu{
     display: flex;

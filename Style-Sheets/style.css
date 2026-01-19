@@ -16,5 +16,8 @@ body{
             #F7E93F 0%,
             #FB09B4 51%, 
             #9100F8 100%);
-        --g2:linear-gradient(270deg, #007b70 0%, #ECF955 100%);
+        --g2:linear-gradient(
+            250deg, 
+            #007b70 0%, 
+            #ECF955 100%);
 }
