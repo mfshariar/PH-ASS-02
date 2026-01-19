@@ -10,7 +10,11 @@ body{
 :root{
         --brand-color: #00FF88;
         --pr-color:#1A0B2E;
-        --sce-color:#FFFFFF;
-        --g1:linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+        --sc-color:#FFFFFF;
+        --grad-one:linear-gradient(
+            90deg,
+            #F7E93F 0%,
+            #FB09B4 51%, 
+            #9100F8 100%);
         --g2:linear-gradient(270deg, #007b70 0%, #ECF955 100%);
 }
